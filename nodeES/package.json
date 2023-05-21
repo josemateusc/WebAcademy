@@ -1,11 +1,12 @@
 {
-  "name": "node",
+  "name": "helloworld",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "start": "npx nodemon index.js files/",
-    "start:prod": "node index.js files/"
+    "start": "npx nodemon index.js files",
+    "start:prod": "node index.js files"
   },
   "keywords": [],
   "author": "",
