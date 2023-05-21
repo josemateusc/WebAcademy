@@ -1,9 +1,10 @@
 const http = require('http');
 const fs = require('fs');
+require('dotenv').config();
 
 const folder = process.argv[2];
 
-const PORT = 3333;
+const PORT = process.env.PORT || 3333;
 
 const server = http.createServer((req, res) => {
     fs.readdir(folder, (err, files) => {
