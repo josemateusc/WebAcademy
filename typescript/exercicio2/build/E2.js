@@ -15,7 +15,6 @@ const biblioteca = [
     {
         nomeLivro: "The Hobbit",
         preco: 19.99,
-        categoria: Categorias.Fantasy,
     },
     {
         nomeLivro: "1984",
@@ -29,5 +28,5 @@ for (let livro of biblioteca) {
     console.log(`
       Nome: ${livro.nomeLivro}
       Preço: ${livro.preco}
-      Categoria: ${livro.categoria}`);
+      Categoria: ${livro.categoria ? livro.categoria : 'Categoria não definida'}`);
 }

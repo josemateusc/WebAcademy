@@ -20,7 +20,6 @@ type Livro = {
     {
       nomeLivro: "The Hobbit",
       preco: 19.99,
-      categoria: Categorias.Fantasy,
     },
     {
       nomeLivro: "1984",
